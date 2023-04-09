@@ -131,4 +131,7 @@ print(a1)
 alog = sigmoidnp(np.dot(set_w,X_train[0].reshape(1,1)) + set_b)
 print(alog)
 
-plt_logistic(X_train, Y_train, model, set_w, set_b, pos, neg)
+# plt_logistic(X_train, Y_train, model, set_w, set_b, pos, neg)
+newa = np.array([[1,2],[3,4],[5,6]])
+print(newa.shape[0])
+print(newa.shape[1])
