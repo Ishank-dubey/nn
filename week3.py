@@ -77,7 +77,7 @@ plt.grid(True)
 import numpy as np
 
 # for building linear regression models and preparing data
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression, Ridge
 from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
@@ -457,3 +457,6 @@ print(f"Selected Model: {model_num}")
 print(f"Training Set Classification Error: {nn_train_error[model_num-1]:.4f}")
 print(f"CV Set Classification Error: {nn_cv_error[model_num-1]:.4f}")
 print(f"Test Set Classification Error: {nn_test_error:.4f}")
+
+
+
